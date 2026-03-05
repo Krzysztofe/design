@@ -1,0 +1,495 @@
+@font-face {
+  font-family: "Inter";
+  src:
+    url("./../fonts/Inter_28pt-Regular.ttf") format("ttf"),
+    url("./../fonts/Inter28pt-Regular.woff2") format("woff2"),
+    url("./../fonts/Inter28pt-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+#xiaomi {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  @font-face {
+    font-family: "Inter";
+    src:
+      url("./../fonts/Inter_28pt-Regular.ttf") format("ttf"),
+      url("./../fonts/Inter28pt-Regular.woff2") format("woff2"),
+      url("./../fonts/Inter28pt-Regular.woff") format("woff");
+    font-display: swap;
+  }
+}
+
+#xiaomi {
+  font-family: "MiSansLatinVF", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  min-width: 320px;
+  /* overflow: hidden; */
+  background: #fff;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --small-section-padding: 16px;
+  --small-section-negative: 0px;
+  width: 100%;
+
+  line-height: 1.5;
+  margin-bottom: 3em;
+  letter-spacing: 0.12em;
+  word-spacing: 0.16em;
+  overflow-wrap: break-word;
+}
+
+@media screen and (min-width: 960px) {
+  #xiaomi {
+    --small-section-padding: 40px;
+    --small-section-negative: 40px;
+    max-width: 680px;
+  }
+}
+@media screen and (min-width: 1230px) {
+  #xiaomi {
+    --small-section-padding: 66px;
+    --small-section-negative: 66px;
+    max-width: 920px;
+  }
+}
+#xiaomi * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "MiSansLatinVF", sans-serif;
+}
+
+#xiaomi .font-light,
+#xiaomi .section__items-item-desc,
+#xiaomi .section__drying-desc,
+#xiaomi .section__disclaimer,
+#xiaomi .section__layers-item-desc {
+  /* font-variation-settings: "wght" 250; */
+}
+#xiaomi .font-regular {
+  /* font-variation-settings: "wght" 330; */
+}
+#xiaomi .font-medium,
+#xiaomi .hero__title {
+  /* font-variation-settings: "wght" 380; */
+}
+#xiaomi .font-demibold {
+  /* font-variation-settings: "wght" 450; */
+}
+#xiaomi .font-semibold,
+#xiaomi .specs__button,
+#xiaomi .section__items-item-title,
+#xiaomi .section__drying-title,
+#xiaomi .section__hair .section__hair-item-text,
+#xiaomi .section__layers-item-title,
+#xiaomi .section__title-heading,
+#xiaomi .details__item-title,
+#xiaomi .g-headline {
+  /* font-variation-settings: "wght" 520; */
+}
+#xiaomi .font-bold {
+  /* font-variation-settings: "wght" 630; */
+}
+
+#xiaomi .g-headline-description.bottom-space {
+  margin-bottom: 64px;
+}
+
+/* images */
+
+#xiaomi .lazy {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#xiaomi .image-horizontal-center {
+  margin: 0 auto;
+  width: fit-content;
+  display: block;
+}
+
+#xiaomi .image-column {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* headers */
+
+#xiaomi .g-headline .mb40 {
+  margin-bottom: 40px;
+}
+
+#xiaomi .g-headline {
+  font-size: 23px;
+  margin: 0 0 8px;
+  text-align: center;
+  font-weight: 400;
+}
+
+#xiaomi .g-headline--lg {
+  font-size: 44.5px;
+  color: #0b4e9a;
+  font-weight: 400;
+}
+#xiaomi .g-headline--md {
+  font-size: 31.5px;
+}
+
+#xiaomi .g-headline--sm {
+  font-size: 17px;
+  margin-left: 30px;
+}
+
+#xiaomi .g-headline-description {
+  margin: 0;
+  font-size: 11.39px;
+  line-height: 1.35;
+  text-align: center;
+}
+
+@media screen and (min-width: 960px) {
+  #xiaomi .g-headline {
+    font-size: 26.29px;
+    margin-bottom: 14px;
+    line-height: 1.35;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #xiaomi .g-headline-description {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* sections */
+
+#xiaomi .section {
+  padding: 50px 5px;
+  position: relative;
+}
+
+@media screen and (min-width: 960px) {
+  #xiaomi .section {
+    padding: 50px 16px;
+  }
+}
+/* section half */
+
+#xiaomi .section__half {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#xiaomi .section__half--reverse {
+  flex-direction: column-reverse;
+}
+
+#xiaomi .section__half .section__column {
+  width: 100%;
+  text-align: left;
+}
+
+@media screen and (min-width: 960px) {
+  #xiaomi .section__half {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #xiaomi .section__half .section__column {
+    width: calc(50% - 40px);
+  }
+}
+
+/* universal section */
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 960px) {
+  .columns {
+    flex-direction: row;
+  }
+
+  .columns__item {
+    flex: 1;
+  }
+}
+/* utils */
+
+/* margins */
+#xiaomi .mt-20 {
+  margin-top: 20px;
+}
+
+#xiaomi .mb-20 {
+  margin-bottom: 20px;
+}
+
+#xiaomi .mb-40 {
+  margin-bottom: 40px;
+}
+
+#xiaomi .m-0 {
+  margin: 0;
+}
+
+#xiaomi .m-auto {
+  margin: 0 auto;
+}
+
+#xiaomi .text-center {
+  text-align: center;
+}
+
+#xiaomi .text-right {
+  text-align: right;
+}
+
+#xiaomi .text-left {
+  text-align: left;
+}
+
+#xiaomi .mr-0 {
+  margin-right: 0;
+}
+
+/* positions */
+
+#xiaomi .relative {
+  position: relative;
+}
+
+#xiaomi .absolute {
+  position: absolute;
+}
+
+/* flex */
+
+#xiaomi .flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+#xiaomi .flex-between {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#xiaomi .flex-none {
+  flex: none;
+}
+
+#xiaomi .flex-2 {
+  flex: 2;
+}
+
+/* widths */
+
+#xiaomi .w-50 {
+  width: 50%;
+}
+
+#xiaomi .w-65 {
+  width: 65%;
+}
+#xiaomi .w-30 {
+  width: 30%;
+}
+
+#xiaomi .min-w-250 {
+  min-width: 250px;
+}
+
+/* hero */
+
+#xiaomi .hero {
+  position: relative;
+}
+
+#xiaomi .hero__text {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+#xiaomi .hero__name {
+  width: 100%;
+  margin: 0 0 -3px;
+  max-width: 80%;
+}
+
+#xiaomi .hero__nametitle {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+}
+
+#xiaomi .hero__title {
+  font-size: 21.03px;
+  line-height: 1.19;
+  margin: 0;
+  font-weight: 400;
+}
+
+#xiaomi .hero__img {
+  width: 100%;
+  display: block;
+}
+
+@media screen and (min-width: 960px) {
+  #xiaomi .hero__text {
+    position: absolute;
+    inset: 0;
+
+    z-index: 3;
+    padding: 130px var(--small-section-padding) 20px;
+  }
+  #xiaomi .hero__title {
+    max-width: 70%;
+  }
+  #xiaomi .hero__name {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 1230px) {
+  #xiaomi .hero {
+    padding-top: 0;
+  }
+  #xiaomi .hero__text {
+    padding-top: 224px;
+  }
+  #xiaomi .hero__name {
+    max-width: 400px;
+  }
+}
+
+/* half */
+
+#xiaomi .section__half .g-headline,
+#xiaomi .section__half .g-headline-description {
+  text-align: left;
+  margin-left: 0;
+}
+
+/* specs */
+
+#xiaomi .specs {
+  position: relative;
+  background: #f8f8f8;
+  padding-bottom: 30px;
+  margin-top: 60px;
+}
+
+#xiaomi .specs__button {
+  padding: 7px 20px;
+  font-size: 14px;
+  border: 1px solid #454545;
+  border-radius: 8px;
+  color: #454545;
+  text-decoration: none;
+  margin: 24px 20px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+}
+
+#xiaomi .specs__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+#xiaomi .specs__arrow {
+  width: fit-content;
+}
+
+@media screen and (min-width: 960px) {
+  #xiaomi .specs {
+    padding-bottom: 0;
+  }
+  #xiaomi .specs__button {
+    position: absolute;
+    bottom: 45px;
+    right: var(--small-section-padding);
+    margin: 0 32px;
+  }
+}
+@media screen and (min-width: 1230px) {
+  #xiaomi .specs {
+    margin-top: 40px;
+  }
+  #xiaomi .specs__button {
+    bottom: 60px;
+  }
+}
+
+/* <!-- photo --> */
+
+#xiaomi .photo-text {
+  position: relative;
+  text-align: center;
+  /* background: #151515; */
+  border-radius: 16px;
+  padding: 32px 16px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: gray;
+}
+
+@media screen and (min-width: 960px) {
+  #xiaomi .photo-text__text-top {
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+  }
+
+  #xiaomi .photo-text__text-left {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 40%;
+    text-align: left;
+  }
+
+  #xiaomi .photo-text__text-left .g-headline,
+  #xiaomi .photo-text__text-left .g-headline-description {
+    text-align: left;
+    margin-left: 0;
+  }
+}
+
+#xiaomi .notes {
+  font-size: 11.3px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
