@@ -30,7 +30,7 @@
 
     <!-- header -->
 
-    <h2 class="text-lg text-center font-600 mb-10">tytuł header</h2>
+    <h2 class="text-lg text-center font-600 mb-10 mt-0">tytuł header</h2>
     <p class="text-xs text-center mb-60">Kolorory</p>
 
     <!-- tytuł góra zdjęcie dół -->
@@ -261,9 +261,9 @@
             />
           </div>
           <div class="relative mt-20">
-            <p class="ml-20 text-sm font-600 img-text-middle w-85">
+            <div class="ml-20 text-sm font-600 img-text-middle w-85">
               Alerty dotyczące prywatności
-            </p>
+            </div>
             <img
               src="//f00.esfr.pl/si_upload/blank_gif/blank.gif"
               data-original="img/image-9.webp"
@@ -274,9 +274,9 @@
           </div>
         </div>
         <div class="column__item rounded-lg relative">
-          <p class="ml-20 mb-20 text-sm font-600 img-text-top w-50">
+          <div class="ml-20 mt-10 mb-10 text-sm font-600 img-text-top w-50">
             Zdalne namierzanie zgubionych rzeczy
-          </p>
+          </div>
           <img
             src="//f00.esfr.pl/si_upload/blank_gif/blank.gif"
             data-original="img/image-9.webp"
@@ -287,9 +287,9 @@
         </div>
       </div>
 
-      <div class="columns mt-20">
+      <div class="columns mt-10">
         <div class="column__item relative">
-          <div class="ml-20 mb-20 text-sm font-600 img-text-top w-50">
+          <div class="ml-20 mt-10 mb-10 text-sm font-600 img-text-top w-50">
             Bateria działająca ponad 12 miesięcy
           </div>
           <img
@@ -302,9 +302,9 @@
         </div>
 
         <div class="column__item relative flex-2 rounded-lg">
-          <p class="ml-20 mb-20 text-sm font-600 img-text-top w-50">
+          <div class="ml-20 mt-10 mb-10 text-sm font-600 img-text-top w-50">
             Lekka, 10-gramowa obudowa z certyfikatem IP67
-          </p>
+          </div>
           <img
             src="//f00.esfr.pl/si_upload/blank_gif/blank.gif"
             data-original="img/image-9.webp"
@@ -312,6 +312,82 @@
             loading="lazy"
             class="lazy img-col rounded-lg"
           />
+        </div>
+      </div>
+    </section>
+
+    <!-- grid column 6-->
+
+    <section class="section">
+      <h2 class="text-lg text-center font-600 mb-10 mt-0">grid column 6</h2>
+
+      <div class="columns">
+        <div class="column__item relative flex-none lg-w-60">
+          <p class="img-text-top font-600 text-sm">23 inch</p>
+          <img
+            src="//f00.esfr.pl/si_upload/blank_gif/blank.gif"
+            data-original="img/image-10.webp"
+            alt="Xiaomi 2k"
+            loading="lazy"
+            class="lazy img-col"
+          />
+        </div>
+        <div class="column__item relative">
+          <p class="img-text-top font-600 text-sm">144 hrz</p>
+          <img
+            src="//f00.esfr.pl/si_upload/blank_gif/blank.gif"
+            data-original="img/image-10.webp"
+            alt="Xiaomi 2k"
+            loading="lazy"
+            class="lazy img-col"
+          />
+        </div>
+      </div>
+
+      <div class="columns mt-10">
+        <div class="columns lg-w-60 flex-none">
+          <div class="column__item relative">
+            <p class="img-text-top font-600 text-sm">99%</p>
+            <img
+              src="//f00.esfr.pl/si_upload/blank_gif/blank.gif"
+              data-original="img/image-10.webp"
+              alt="Xiaomi 2k"
+              loading="lazy"
+              class="lazy img-col"
+            />
+          </div>
+          <div class="column__item relative">
+            <p class="img-text-top font-600 text-sm">300 inch</p>
+            <img
+              src="//f00.esfr.pl/si_upload/blank_gif/blank.gif"
+              data-original="img/image-10.webp"
+              alt="Xiaomi 2k"
+              loading="lazy"
+              class="lazy img-col"
+            />
+          </div>
+        </div>
+        <div class="column__item">
+          <div class="relative">
+            <p class="img-text-top font-600 text-sm">indiwidual</p>
+            <img
+              src="//f00.esfr.pl/si_upload/blank_gif/blank.gif"
+              data-original="img/image-10.webp"
+              alt="Xiaomi 2k"
+              loading="lazy"
+              class="lazy img-center-h"
+            />
+          </div>
+          <div class="relative mt-10">
+            <p class="img-text-top font-600 text-sm">indiwidual</p>
+            <img
+              src="//f00.esfr.pl/si_upload/blank_gif/blank.gif"
+              data-original="img/image-10.webp"
+              alt="Xiaomi 2k"
+              loading="lazy"
+              class="lazy img-center-h"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -399,7 +475,7 @@
       </span>
     </section>
 
-    <section class="notes">
+    <section class="section notes">
       <p><strong>Uwagi:</strong></p>
       <p>
         1. Prezentowana wizualizacja ma charakter wyłącznie poglądowy i służy
@@ -497,6 +573,12 @@
       img.src = img.dataset.original;
     });
   </script>
+
+  <!-- npx purgecss --css css/style.css --content index.html --output temp/
+  cleancss-o css/style.css temp/style.css
+  Remove-Item -Recurse -Force temp
+  
+  htmlhint index.html -->
 
   <!-- src="\/\/f00\.esfr\.pl\/si_upload\/blank_gif\/blank\.gif"\s*data-original="([^"]+)"
 src="$1" -->
