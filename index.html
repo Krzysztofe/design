@@ -50,13 +50,13 @@
 
     <!-- text na zdjęciu center top -->
 
-    <section class="section">
+    <section class="section bg-section">
       <div class="relative">
         <div class="overlay-text">
           <h2 class="text-lg text-center font-600 mb-10 mt-0 m-auto">
             text na zdjęciu center top
           </h2>
-          <p class="text-xs text-center mb-10 m-auto">
+          <p class="text-xs text-center m-auto">
             Kolorory Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Blanditiis, reprehenderit enim pariatur eveniet voluptatibus
             repellat tenetur molestias. Voluptatem commodi, esse voluptates
@@ -77,7 +77,7 @@
     <!-- text na zdjęciu center -->
 
     <section class="section">
-      <div class="relative">
+      <div class="relative bg-black">
         <div class="overlay-text pos-center p-10">
           <h2
             class="text-lg text-center font-600 mb-10 mt-0 text-accent md:w-50p"
@@ -149,11 +149,11 @@
         kolumna na zdjęciu right
       </h2>
       <div class="relative">
-        <div
-          class="overlay-text pos-center-right p-10 md:w-50p md:ml-auto gap-y-5p"
-        >
-          <p class="text-xs text-accent">Kolorory Lorem</p>
-          <p class="text-xs text-accent">Kolorory Lorem</p>
+        <div class="overlay-text pos-center p-10 md:w-50p md:ml-auto gap-5p">
+          <p class="text-xs text-accent relative border-bottom">
+            Kolorory Lorem
+          </p>
+          <p class="text-xs text-accent border">Kolorory Lorem</p>
           <p class="text-xs text-accent">Kolorory Lorem</p>
           <p class="text-xs text-accent">Kolorory Lorem</p>
         </div>
@@ -264,15 +264,18 @@
             class="lazy img-col"
           />
         </div>
-        <div class="column__item">
-          <h2 class="text-lg mt-0">column Photo left</h2>
-          <p class="text-xs">
-            Dzięki zastosowaniu 4 akumulatorów litowo-jonowych o pojemności 2000
-            mAh* odkurzacz może pracować do 40 minut* w trybie Eco z różnymi
-            końcówkami oraz do 10 minut* w trybie Turbo. Efektywna i długotrwała
-            moc ssania zwiększa komfort sprzątania i ogranicza przerwy na
-            ładowanie.
-          </p>
+
+        <div class="column__item flex items-center">
+          <div class="p-10p">
+            <h2 class="text-lg mt-0 mr-auto">column Photo left</h2>
+            <p class="text-xs">
+              Dzięki zastosowaniu 4 akumulatorów litowo-jonowych o pojemności
+              2000 mAh* odkurzacz może pracować do 40 minut* w trybie Eco z
+              różnymi końcówkami oraz do 10 minut* w trybie Turbo. Efektywna i
+              długotrwała moc ssania zwiększa komfort sprzątania i ogranicza
+              przerwy na ładowanie.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -282,15 +285,17 @@
 
     <section class="section">
       <div class="columns">
-        <div class="column__item">
-          <h2 class="text-left mt-0">column photo right</h2>
-          <p class="text-xs">
-            Dzięki zastosowaniu 4 akumulatorów litowo-jonowych o pojemności 2000
-            mAh* odkurzacz może pracować do 40 minut* w trybie Eco z różnymi
-            końcówkami oraz do 10 minut* w trybie Turbo. Efektywna i długotrwała
-            moc ssania zwiększa komfort sprzątania i ogranicza przerwy na
-            ładowanie.
-          </p>
+        <div class="column__item flex items-center">
+          <div class="p-10p">
+            <h2 class="mt-0">column photo right</h2>
+            <p class="text-xs">
+              Dzięki zastosowaniu 4 akumulatorów litowo-jonowych o pojemności
+              2000 mAh* odkurzacz może pracować do 40 minut* w trybie Eco z
+              różnymi końcówkami oraz do 10 minut* w trybie Turbo. Efektywna i
+              długotrwała moc ssania zwiększa komfort sprzątania i ogranicza
+              przerwy na ładowanie.
+            </p>
+          </div>
         </div>
 
         <div class="column__item">
@@ -337,6 +342,58 @@
             loading="lazy"
             class="lazy img-col"
           />
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="text-lg font-600 mb-10 text-center mt-0">
+        columns bottom text
+      </h2>
+      <div class="columns mt-10">
+        <div class="column__item">
+          <p class="text-sm font-600 overlay-text p-10">grid 1/4 text</p>
+          <img
+            src="//f00.esfr.pl/si_upload/blank_gif/blank.gif"
+            data-original="img/image-10.webp"
+            alt=""
+            loading="lazy"
+            class="lazy block w-100p"
+          />
+          <div class="h-200 bg-accent p-10">text</div>
+        </div>
+        <div class="column__item">
+          <p class="text-sm font-600 overlay-text p-10">grid 1/4 text</p>
+          <img
+            src="//f00.esfr.pl/si_upload/blank_gif/blank.gif"
+            data-original="img/image-10.webp"
+            alt=""
+            loading="lazy"
+            class="lazy block w-100p"
+          />
+          <div class="h-200 bg-accent p-10">text</div>
+        </div>
+        <div class="column__item">
+          <p class="text-sm font-600 overlay-text p-10">grid 1/4 text</p>
+          <img
+            src="//f00.esfr.pl/si_upload/blank_gif/blank.gif"
+            data-original="img/image-10.webp"
+            alt=""
+            loading="lazy"
+            class="lazy block w-100p"
+          />
+          <div class="h-200 bg-accent p-10">text</div>
+        </div>
+        <div class="column__item">
+          <p class="text-sm font-600 overlay-text p-10">grid 1/4 text</p>
+          <img
+            src="//f00.esfr.pl/si_upload/blank_gif/blank.gif"
+            data-original="img/image-10.webp"
+            alt=""
+            loading="lazy"
+            class="lazy block w-100p"
+          />
+          <div class="h-200 bg-accent p-10">text</div>
         </div>
       </div>
     </section>
