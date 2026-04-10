@@ -302,6 +302,12 @@
   position: relative;
 }
 
+@media (min-width: 960px) {
+  #xiaomi .section-inline {
+    padding-inline: 16px;
+    position: relative;
+  }
+}
 /* columns */
 
 #xiaomi .columns {
@@ -585,6 +591,10 @@
   padding-left: 50px;
 }
 
+#xiaomi .p-block-50 {
+  padding-block: 50px;
+}
+
 #xiaomi .p-block-80 {
   padding-block: 80px;
 }
@@ -597,6 +607,17 @@
 
 #xiaomi .p-5p {
   padding: 5%;
+}
+@media (min-width: 960px) {
+  #xiaomi .md-p-5p {
+    padding: 5%;
+  }
+}
+
+@media (min-width: 1230px) {
+  #xiaomi .lg-p-5p {
+    padding: 5%;
+  }
 }
 
 #xiaomi .p-10p {
@@ -635,6 +656,12 @@
   }
 }
 
+@media (min-width: 1230px) {
+  #xiaomi .lg-pl-5p {
+    padding: 5%;
+  }
+}
+
 #xiaomi .pl-10p {
   padding-left: 10%;
 }
@@ -652,6 +679,28 @@
 @media (min-width: 960px) {
   #xiaomi .md-pb-5p {
     padding-bottom: 5%;
+  }
+}
+
+@media (min-width: 1230px) {
+  #xiaomi .lg-pb-5p {
+    padding-bottom: 5%;
+  }
+}
+
+#xiaomi .pb-10p {
+  padding-bottom: 10%;
+}
+
+@media (min-width: 960px) {
+  #xiaomi .md-pb-10p {
+    padding-bottom: 10%;
+  }
+}
+
+@media (min-width: 1230px) {
+  #xiaomi .lg-pb-10p {
+    padding-bottom: 10%;
   }
 }
 
@@ -677,6 +726,12 @@
 
 #xiaomi .flex {
   display: flex;
+}
+
+@media (min-width: 960px) {
+  #xiaomi .md-flex {
+    display: flex;
+  }
 }
 
 #xiaomi .justify-center {
@@ -753,6 +808,12 @@
   width: 60px;
 }
 
+@media (min-width: 960px) {
+  #xiaomi .md-w-66p {
+    width: 66.3%;
+  }
+}
+
 #xiaomi .w-70 {
   width: 70px;
 }
@@ -768,7 +829,12 @@
 #xiaomi .w-100 {
   width: 100px;
 }
-
+#xiaomi .w-110 {
+  width: 110px;
+}
+#xiaomi .w-120 {
+  width: 120px;
+}
 #xiaomi .w-130 {
   width: 130px;
 }
@@ -777,8 +843,29 @@
   width: 140px;
 }
 
+#xiaomi .w-150 {
+  width: 150px;
+}
+#xiaomi .w-160 {
+  width: 160px;
+}
+#xiaomi .w-170 {
+  width: 170px;
+}
+
 #xiaomi .w-180 {
   width: 180px;
+}
+
+#xiaomi .w-190 {
+  width: 190px;
+}
+#xiaomi .w-200 {
+  width: 200px;
+}
+
+#xiaomi .w-250 {
+  width: 250px;
 }
 
 #xiaomi .w-300 {
@@ -821,6 +908,11 @@
 
 @media (min-width: 960px) {
   #xiaomi .md-w-60p {
+    width: 60%;
+  }
+}
+@media (min-width: 1230px) {
+  #xiaomi .lg-w-60p {
     width: 60%;
   }
 }
