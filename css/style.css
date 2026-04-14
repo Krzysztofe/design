@@ -284,6 +284,10 @@
   background-color: #2cc1e6;
 }
 
+#xiaomi .bg-section {
+  background-color: #2cc1e6;
+}
+
 /* sections */
 
 #xiaomi .section {
@@ -425,6 +429,12 @@
   }
 }
 
+@media (min-width: 1230px) {
+  #xiaomi .lg-ml-auto {
+    margin-left: auto;
+  }
+}
+
 /* m-right */
 
 #xiaomi .mr-20 {
@@ -478,6 +488,22 @@
 }
 #xiaomi .mt-100 {
   margin-top: 100px;
+}
+
+#xiaomi .mt-auto {
+  margin-top: auto;
+}
+
+@media (min-width: 960px) {
+  #xiaomi .md-mt-auto {
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1230px) {
+  #xiaomi .lg-mt-auto {
+    margin-top: auto;
+  }
 }
 
 /* m-bottom */
@@ -647,18 +673,18 @@
 }
 
 #xiaomi .pl-5p {
-  padding: 5%;
+  padding-left: 5%;
 }
 
 @media (min-width: 960px) {
   #xiaomi .md-pl-5p {
-    padding: 5%;
+    padding-left: 5%;
   }
 }
 
 @media (min-width: 1230px) {
   #xiaomi .lg-pl-5p {
-    padding: 5%;
+    padding-left: 5%;
   }
 }
 
@@ -864,8 +890,38 @@
   width: 200px;
 }
 
+#xiaomi .w-210 {
+  width: 210px;
+}
+
+#xiaomi .w-220 {
+  width: 200px;
+}
+#xiaomi .w-230 {
+  width: 230px;
+}
+#xiaomi .w-240 {
+  width: 240px;
+}
+
 #xiaomi .w-250 {
   width: 250px;
+}
+
+#xiaomi .w-260 {
+  width: 260px;
+}
+
+#xiaomi .w-270 {
+  width: 270px;
+}
+
+#xiaomi .w-280 {
+  width: 280px;
+}
+
+#xiaomi .w-290 {
+  width: 290px;
 }
 
 #xiaomi .w-300 {
@@ -917,6 +973,36 @@
   }
 }
 
+#xiaomi .w-70p {
+  width: 70%;
+}
+
+@media (min-width: 960px) {
+  #xiaomi .md-w-70p {
+    width: 70%;
+  }
+}
+@media (min-width: 1230px) {
+  #xiaomi .lg-w-70p {
+    width: 70%;
+  }
+}
+
+#xiaomi .w-80p {
+  width: 80%;
+}
+
+@media (min-width: 960px) {
+  #xiaomi .md-w-80p {
+    width: 80%;
+  }
+}
+@media (min-width: 1230px) {
+  #xiaomi .lg-w-80p {
+    width: 80%;
+  }
+}
+
 #xiaomi .w-100p {
   width: 100%;
 }
@@ -931,6 +1017,18 @@
 
 #xiaomi .h-200 {
   height: 200px;
+}
+
+@media (min-width: 960px) {
+  #xiaomi .md-h-40p {
+    height: 40%;
+  }
+}
+
+@media (min-width: 1230px) {
+  #xiaomi .lg-h-40p {
+    height: 40%;
+  }
 }
 
 /* rounded */
